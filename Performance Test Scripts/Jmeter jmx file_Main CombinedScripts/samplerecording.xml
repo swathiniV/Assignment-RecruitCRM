@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="152" it="0" lt="0" ct="94" ts="1716828333091" s="true" lb="001 - /generate_204 ()" rc="204" rm="No Content" tn="" dt="" de="" by="146" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Content-Length: 0
+Cross-Origin-Resource-Policy: cross-origin
+Date: Mon, 27 May 2024 16:45:33 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: www.gstatic.com
+Cache-Control: no-cache
+Pragma: no-cache
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.gstatic.com/generate_204</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="safebrowsing.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT safebrowsing.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="safebrowsing.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT safebrowsing.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="635" it="0" lt="630" ct="213" ts="1716828338551" s="true" lb="002 - / ()" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2279" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: 6bb311f11dfb58ed482135ab85fa936f;o=1
+Date: Mon, 27 May 2024 16:45:38 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;125&quot;, &quot;Chromium&quot;;v=&quot;125&quot;, &quot;Not.A/Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt; BlazeDemo&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;jumbotron&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h1&gt;Welcome to the Simple Travel Agency!&lt;/h1&gt;
+            &lt;p&gt;The is a sample site you can test with BlazeMeter! &lt;/p&gt;
+            &lt;p&gt;Check out our &lt;a href=&quot;vacation.html&quot;&gt;destination of the week! The Beach!&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;h2&gt;Choose your departure city:&lt;/h2&gt;
+    &lt;form action=&quot;reserve.php&quot; method=&quot;post&quot;&gt;
+        &lt;select name=&quot;fromPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Paris&quot;&gt;Paris&lt;/option&gt;
+            &lt;option value=&quot;Philadelphia&quot;&gt;Philadelphia&lt;/option&gt;
+            &lt;option value=&quot;Boston&quot;&gt;Boston&lt;/option&gt;
+            &lt;option value=&quot;Portland&quot;&gt;Portland&lt;/option&gt;
+            &lt;option value=&quot;San Diego&quot;&gt;San Diego&lt;/option&gt;
+            &lt;option value=&quot;Mexico City&quot;&gt;Mexico City&lt;/option&gt;
+            &lt;option value=&quot;São Paolo&quot;&gt;São Paolo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;
+        &lt;h2&gt;Choose your destination city:&lt;/h2&gt;
+        &lt;select name=&quot;toPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Buenos Aires&quot;&gt;Buenos Aires&lt;/option&gt;
+            &lt;option value=&quot;Rome&quot;&gt;Rome&lt;/option&gt;
+            &lt;option value=&quot;London&quot;&gt;London&lt;/option&gt;
+            &lt;option value=&quot;Berlin&quot;&gt;Berlin&lt;/option&gt;
+            &lt;option value=&quot;New York&quot;&gt;New York&lt;/option&gt;
+            &lt;option value=&quot;Dublin&quot;&gt;Dublin&lt;/option&gt;
+            &lt;option value=&quot;Cairo&quot;&gt;Cairo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; value=&quot;Find Flights&quot;/&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22d73c72ea-2699-4238-b55f-6d618ad2f395%22%2C%22initialReferrer%22:%22https://blazedemo.com/%22}; prodperfect_session={%22session_uuid%22:%22f38faea2-f6c8-4514-9acc-dc21d3709e4e%22}</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://blazedemo.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="clients4.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT clients4.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="Software caused connection abort: socket write error&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1659" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="safebrowsing.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT safebrowsing.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="117" it="0" lt="0" ct="55" ts="1716828358390" s="true" lb="003 - /generate_204 ()" rc="204" rm="No Content" tn="" dt="" de="" by="146" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Content-Length: 0
+Cross-Origin-Resource-Policy: cross-origin
+Date: Mon, 27 May 2024 16:45:58 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: www.gstatic.com
+Cache-Control: no-cache
+Pragma: no-cache
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.gstatic.com/generate_204</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="optimizationguide-pa.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="optimizationguide-pa.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="631" it="0" lt="630" ct="176" ts="1716828364173" s="true" lb="004 - /reserve.php ()" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2485" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: 5c89b293d7ed4df33458af0257a4264a
+Date: Mon, 27 May 2024 16:46:04 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://blazedemo.com/
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://blazedemo.com
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;125&quot;, &quot;Chromium&quot;;v=&quot;125&quot;, &quot;Not.A/Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+Content-Length: 31
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;BlazeDemo - reserve&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+    
+        &lt;h3&gt;Flights from Boston to New York: &lt;/h3&gt;
+    &lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Choose&lt;/th&gt;
+            &lt;th&gt;Flight #&lt;/th&gt;
+            &lt;th&gt;Airline&lt;/th&gt;
+            &lt;th&gt;Departs: Boston&lt;/th&gt;
+            &lt;th&gt;Arrives: New York&lt;/th&gt;
+            &lt;th&gt;Price&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;VA43&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;43&lt;/td&gt;
+                &lt;td&gt;Virgin America&lt;/td&gt;
+                &lt;td&gt;1:43 AM&lt;/td&gt;
+                &lt;td&gt;9:45 PM&lt;/td&gt;
+                &lt;td&gt;$472.56&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;43&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;472.56&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Virgin America&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Boston&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;UA234&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;234&lt;/td&gt;
+                &lt;td&gt;United Airlines&lt;/td&gt;
+                &lt;td&gt;7:43 AM&lt;/td&gt;
+                &lt;td&gt;10:45 PM&lt;/td&gt;
+                &lt;td&gt;$432.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;234&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;432.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;United Airlines&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Boston&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;AL969&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;9696&lt;/td&gt;
+                &lt;td&gt;Aer Lingus&lt;/td&gt;
+                &lt;td&gt;5:27 AM&lt;/td&gt;
+                &lt;td&gt;8:22 PM&lt;/td&gt;
+                &lt;td&gt;$200.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;9696&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;200.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Aer Lingus&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Boston&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;VA12&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;12&lt;/td&gt;
+                &lt;td&gt;Virgin America&lt;/td&gt;
+                &lt;td&gt;11:23 AM&lt;/td&gt;
+                &lt;td&gt;1:45 PM&lt;/td&gt;
+                &lt;td&gt;$765.32&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;12&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;765.32&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Virgin America&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Boston&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;L4346&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;4346&lt;/td&gt;
+                &lt;td&gt;Lufthansa&lt;/td&gt;
+                &lt;td&gt;1:45 AM&lt;/td&gt;
+                &lt;td&gt;8:34 PM&lt;/td&gt;
+                &lt;td&gt;$233.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;4346&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;233.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Lufthansa&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Boston&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Boston&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22d73c72ea-2699-4238-b55f-6d618ad2f395%22%2C%22initialReferrer%22:%22https://blazedemo.com/%22}; prodperfect_session={%22session_uuid%22:%22f38faea2-f6c8-4514-9acc-dc21d3709e4e%22}</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">fromPort=Boston&amp;toPort=New+York</queryString>
+  <java.net.URL>https://blazedemo.com/reserve.php</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="578" it="0" lt="576" ct="180" ts="1716828382061" s="true" lb="005 - /purchase.php ()" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2696" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: 79f6fa15993967d55d7cab07e2bcc900
+Date: Mon, 27 May 2024 16:46:22 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://blazedemo.com/reserve.php
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://blazedemo.com
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;125&quot;, &quot;Chromium&quot;;v=&quot;125&quot;, &quot;Not.A/Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+Content-Length: 79
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;BlazeDemo Purchase&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+            &lt;h2&gt;Your flight from TLV to SFO has been reserved.&lt;/h2&gt;
+    &lt;p&gt;Airline: United&lt;/p&gt;
+    &lt;p&gt;Flight Number: UA954&lt;/p&gt;
+    &lt;p&gt;Price: 400&lt;/p&gt;
+    &lt;p&gt;Arbitrary Fees and Taxes: 514.76&lt;/p&gt;
+    &lt;hr&gt;&lt;/hr&gt;
+    &lt;p&gt;Total Cost: &lt;em&gt;914.76 &lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;Please submit the form below to purchase the flight.&lt;/p&gt;
+
+    &lt;form method=&quot;POST&quot; action=&quot;https://blazedemo.com/confirmation.php&quot; accept-charset=&quot;UTF-8&quot;&gt;&lt;input name=&quot;_token&quot; type=&quot;hidden&quot;&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;inputName&quot;&gt;Name&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input id=&quot;inputName&quot; placeholder=&quot;First Last&quot; name=&quot;inputName&quot; type=&quot;text&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;address&quot;&gt;Address&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;address&quot; id=&quot;address&quot; placeholder=&quot;123 Main St.&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;city&quot;&gt;City&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;city&quot; id=&quot;city&quot; placeholder=&quot;Anytown&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;state&quot;&gt;State&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;state&quot; id=&quot;state&quot; placeholder=&quot;State&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;zipCode&quot;&gt;Zip Code&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;zipCode&quot; id=&quot;zipCode&quot; placeholder=&quot;12345&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;creditCardType&quot;&gt;Card Type&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;select class=&quot;form-inline&quot; name=&quot;cardType&quot; id=&quot;cardType&quot;&gt;
+                &lt;option value=&quot;visa&quot;&gt;Visa&lt;/option&gt;
+                &lt;option value=&quot;amex&quot;&gt;American Express&lt;/option&gt;
+                &lt;option value=&quot;dinersclub&quot;&gt;Diner&apos;s Club&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;creditCardNumber&quot;&gt;Credit Card Number&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; id=&quot;creditCardNumber&quot; name=&quot;creditCardNumber&quot; placeholder=&quot;Credit Card Number&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;creditCardMonth&quot;&gt;Month&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; id=&quot;creditCardMonth&quot; name=&quot;creditCardMonth&quot; placeholder=&quot;Month&quot; value=&quot;11&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;creditCardYear&quot;&gt;Year&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; id=&quot;creditCardYear&quot; name=&quot;creditCardYear&quot; placeholder=&quot;Year&quot; value=&quot;2017&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;nameOnCard&quot;&gt;Name on Card&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; id=&quot;nameOnCard&quot; placeholder=&quot;John Smith&quot; name=&quot;nameOnCard&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;label class=&quot;checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; name=&quot;rememberMe&quot; id=&quot;rememberMe&quot;&gt; Remember me
+            &lt;/label&gt;
+            &lt;input class=&quot;btn btn-primary&quot; type=&quot;submit&quot; value=&quot;Purchase Flight&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/form&gt;
+    
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22d73c72ea-2699-4238-b55f-6d618ad2f395%22%2C%22initialReferrer%22:%22https://blazedemo.com/%22}; prodperfect_session={%22session_uuid%22:%22f38faea2-f6c8-4514-9acc-dc21d3709e4e%22}</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">flight=234&amp;price=432.98&amp;airline=United+Airlines&amp;fromPort=Boston&amp;toPort=New+York</queryString>
+  <java.net.URL>https://blazedemo.com/purchase.php</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="77" it="0" lt="76" ct="48" ts="1716828388291" s="true" lb="006 - /connecttest.txt ()" rc="200" rm="OK" tn="" dt="text" de="" by="187" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 22
+Date: Mon, 27 May 2024 16:46:28 GMT
+Connection: close
+Content-Type: text/plain
+Cache-Control: max-age=30, must-revalidate
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US
+Host: www.msftconnecttest.com
+Content-Type: text/plain
+Cache-Control: no-cache, no-store, must-revalidate
+Accept-Encoding: gzip, deflate
+Accept: text/plain
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Skype/8.119.0.201 Chrome/102.0.5005.197 Electron/19.1.8 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft Connect Test</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.msftconnecttest.com/connecttest.txt?n=1716828388284</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="azeus1-client-s.gateway.messenger.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT azeus1-client-s.gateway.messenger.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="optimizationguide-pa.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="clients4.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT clients4.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="content-autofill.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT content-autofill.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="content-autofill.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT content-autofill.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="content-autofill.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT content-autofill.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="optimizationguide-pa.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="603" it="0" lt="602" ct="170" ts="1716828434857" s="true" lb="007 - /confirmation.php ()" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2525" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: 672eb86d79ba3eb91dd65c50e60ffe6d;o=1
+Date: Mon, 27 May 2024 16:47:15 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://blazedemo.com/purchase.php
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://blazedemo.com
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;125&quot;, &quot;Chromium&quot;;v=&quot;125&quot;, &quot;Not.A/Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+Content-Length: 186
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;BlazeDemo Confirmation&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;container hero-unit&quot;&gt;
+        &lt;h1&gt;Thank you for your purchase today!&lt;/h1&gt;
+        &lt;table class=&quot;table&quot;&gt;
+            &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;&amp;nbsp;&lt;/th&gt;
+                &lt;th&gt;&amp;nbsp;&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                            &lt;tr&gt;
+                    &lt;td&gt;Id&lt;/td&gt;
+                    &lt;td&gt;1716828435812&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Status&lt;/td&gt;
+                    &lt;td&gt;PendingCapture&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Amount&lt;/td&gt;
+                    &lt;td&gt;555 USD&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Card Number&lt;/td&gt;
+                    &lt;td&gt;xxxxxxxxxxxx1111&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Expiration&lt;/td&gt;
+                    &lt;td&gt;11
+                        /2018&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Auth Code&lt;/td&gt;
+                    &lt;td&gt;888888&lt;/td&gt;
+                &lt;/tr&gt;
+                                    &lt;tr&gt;
+                &lt;td&gt;Date&lt;/td&gt;
+                &lt;td&gt;Mon, 27 May 2024 16:47:15 +0000&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;
+        &lt;pre&gt;
+{
+    &amp;quot;id&amp;quot;: &amp;quot;1716828435812&amp;quot;,
+    &amp;quot;status&amp;quot;: &amp;quot;PendingCapture&amp;quot;,
+    &amp;quot;amount&amp;quot;: &amp;quot;555&amp;quot;,
+    &amp;quot;currency&amp;quot;: &amp;quot;USD&amp;quot;,
+    &amp;quot;authCode&amp;quot;: &amp;quot;888888&amp;quot;,
+    &amp;quot;payment&amp;quot;: {
+        &amp;quot;cardNumber&amp;quot;: &amp;quot;xxxxxxxxxxxx1111&amp;quot;,
+        &amp;quot;cardExpirationMonth&amp;quot;: &amp;quot;11&amp;quot;,
+        &amp;quot;cardExpirationYear&amp;quot;: &amp;quot;2018&amp;quot;
+    },
+    &amp;quot;_links&amp;quot;: {
+        &amp;quot;self&amp;quot;: {
+            &amp;quot;href&amp;quot;: &amp;quot;https=&amp;gt;\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1716828435812&amp;quot;,
+            &amp;quot;method&amp;quot;: &amp;quot;GET&amp;quot;
+        },
+        &amp;quot;capture&amp;quot;: [
+            {
+                &amp;quot;href&amp;quot;: &amp;quot;https=&amp;gt;\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1716828435812\/captures&amp;quot;,
+                &amp;quot;method&amp;quot;: &amp;quot;POST&amp;quot;
+            }
+        ],
+        &amp;quot;reversal&amp;quot;: [
+            {
+                &amp;quot;href&amp;quot;: &amp;quot;https=&amp;gt;\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1716828435812\/reversals&amp;quot;,
+                &amp;quot;method&amp;quot;: &amp;quot;POST&amp;quot;
+            }
+        ]
+    }
+}
+&lt;/pre&gt;
+        &lt;br/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22d73c72ea-2699-4238-b55f-6d618ad2f395%22%2C%22initialReferrer%22:%22https://blazedemo.com/%22}; prodperfect_session={%22session_uuid%22:%22f38faea2-f6c8-4514-9acc-dc21d3709e4e%22}</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">_token=&amp;inputName=King&amp;address=PERFORMANCE+TESTER&amp;city=Trichy&amp;state=TN&amp;zipCode=620011&amp;cardType=amex&amp;creditCardNumber=987890987656&amp;creditCardMonth=11&amp;creditCardYear=2017&amp;nameOnCard=smith+</queryString>
+  <java.net.URL>https://blazedemo.com/confirmation.php</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="content-autofill.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT content-autofill.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="content-autofill.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1045" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-7QMCCKT">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT content-autofill.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+</testResults>

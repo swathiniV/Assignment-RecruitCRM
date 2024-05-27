@@ -1,0 +1,16 @@
+Apache JMeter is a solid choice for its ease of use, versatility, and strong community support. It’s suitable for testing web applications and can handle a variety of protocols.
+*Its open source
+*Cross platform support
+*Scripting isn't essential to learn and work on Jmeter
+Jmeter GUI is more user friendly
+
+JMeter vs. LoadRunner:
+JMeter does not require adding beginning or ending transaction elements, which LoadRunner does. In LoadRunner, arranging scripts takes up more time and resources. 
+
+JMeter vs. Gatling: 
+JMeter has a more extensive range of plugins and is more flexible than Gatling. And also JMeter is more powerful than Gatling when generating many requests to the server.
+
+Jmeter vs locust
+JMeter is more established while Locust is emerging.
+Demands an in-depth understanding of HTTP protocols.
+Lacks ramp-up capabilities and also no capture and replay.

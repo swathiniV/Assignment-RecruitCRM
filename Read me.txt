@@ -1,0 +1,20 @@
+# Performance Testing Assignment
+
+## Overview
+This repository contains the performance testing deliverables for the Flight booking web application.
+
+## Modules Tested
+1. User Navigation and Authentication
+2. Flight Search
+3. Booking Process
+
+## Files and Folders
+- **Performance Test Scenario Document**: `performance_test_scenarios.xlsx`
+- **Performance Test Scripts**: JMeter `.jmx` files for each module.
+- **Performance Test Results**: Analysis report with graphs and recommendations.
+
+## Instructions to Run Tests
+1. Clone the repository.
+2. Open JMeter and load the `.jmx` files.
+3. Configure your environment (e.g., server IP, port).
+4. Run the tests and monitor results.
